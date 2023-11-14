@@ -6,7 +6,7 @@ var inputs = [""]
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var lowercase = "abcdefghiklmnopqrsttuvwxtz"
 var numbers = "0123456789"
-var specialchars = "*&^%$#@!?><{}"
+var specialchars = "!#$%&'()*+,-./:;<=>?@/][^_`{|}~"
 var password = ""
 
 // Add event listener to generate button; moved above write password to input function.
@@ -79,7 +79,7 @@ var password = "";
 const confirmLength = parseInt(passwordLength)
 
 
-// put together inputs to display in previously blank password field created in var(s)
+// put together input array to display in previously blank password field created in var(s)
 
 for (var i = 0; i < confirmLength; i++) {
 
