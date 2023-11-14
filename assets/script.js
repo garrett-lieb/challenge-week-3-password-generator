@@ -21,7 +21,7 @@ function writePassword() {
 
 }
 
-//check length
+//prompt length
 function generatePassword () {
   var passwordLength = prompt("Enter desired number of characters (8-128):")
 
@@ -73,6 +73,7 @@ if (uppercaseConfirm === false && lowercaseConfirm === false && numbersConfirm =
 }
 
 var password = "";
+
 
 // make sure potential string pass length is an integer 
 
