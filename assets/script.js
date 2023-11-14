@@ -27,9 +27,7 @@ function generatePassword () {
 
   if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
     alert("Invalid Entry - enter a number between 8 and 128");
-    return
-
-    const confirmLength = parseInt(passwordLength)
+    return    
 }
 
 //confirm upper case
@@ -76,6 +74,19 @@ if (uppercaseConfirm === false && numberConfirm === false && lowercaseConfirm ==
 
 var password = "";
 
+// make sure potential string pass length is an integer 
 
+const confirmLength = parseInt(passwordLength)
+
+// put together inputs to display in previously blank password field created in var(s)
+
+for (var i = 0; i < confirmLength; i++) {
+
+  inputs[Math.floor(Math.random() * inputs.length)];
+
+  password = password + inputs[Math.floor(Math.random() * inputs.length)];
+}
+
+return password;
 
 }
