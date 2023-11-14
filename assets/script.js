@@ -23,7 +23,7 @@ function writePassword() {
 
 //prompt length
 function generatePassword () {
-  var passwordLength = prompt("Enter desired number of characters (8-128):")
+  var passwordLength = prompt("Enter your desired number of characters (min 8, max 128):")
 
   if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
     alert("Invalid Entry - enter a number between 8 and 128");
