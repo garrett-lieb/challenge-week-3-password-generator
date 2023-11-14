@@ -1,19 +1,16 @@
-
-var lettersCapital = ['q','w','e','r','t','y','u','i','o','p','l','k','j','h','g','f','d','s','a','z','x','c','v','b','n','m']
-var letterslower= ['Q','W','E','R','T','Y','U','I','O','P','L','K','J','H','G','F','D','S','A','Z','X','C','V','B','N','M']
-
-//to string var specialchar=[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]
-
 // Assignment Code
-
-var userChoice = window.prompt("enter Y to include CAPITAL LETTERS, enter N for no CAPITAL LETTERS");
-var userChoice = window.prompt("enter Y to include lowercase letters, enter N for no lower case lettesr");
-var userChoice = window.prompt("enter Y to include Special Characters, enter N for no special characters");
-
-userChoice = userChoice.toUpperCase();
-
-
 var generateBtn = document.querySelector("#generate");
+
+//variables
+var input = [""]
+var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var lowercase = "abcdefghiklmnopqrsttuvwxtz"
+var numbers = "0123456789"
+var special = "*&^%$#@!?><{}"
+var password = ""
+
+// Add event listener to generate button; moved above write password to input function.
+generateBtn.addEventListener("click", writePassword);
 
 // Write password to the #password input
 function writePassword() {
@@ -24,5 +21,10 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+function generatePassword () {
+  var passwordLength = prompt("Enter desired number of characters (8-128):")
+
+  if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
+    alert("Invalid entry - Please enter a number between 8 and 128");
+    return
+}
