@@ -67,7 +67,7 @@ if (specialcharsConfirm === true) {
 }
 
 // confirm user selected at least one char type
-if (uppercaseConfirm === false && numberConfirm === false && lowercaseConfirm === false && specialcharsConfirm === false) {
+if (uppercaseConfirm === false && lowercaseConfirm === false && numbersConfirm === false &&  specialcharsConfirm === false) {
   alert("Please choose at least 1 type of character.")
   return;
 }
@@ -77,6 +77,7 @@ var password = "";
 // make sure potential string pass length is an integer 
 
 const confirmLength = parseInt(passwordLength)
+
 
 // put together inputs to display in previously blank password field created in var(s)
 
