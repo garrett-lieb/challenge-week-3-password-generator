@@ -21,6 +21,8 @@ function writePassword() {
 
 }
 
+alert("Reload Page Between Passwords")
+
 //prompt length
 function generatePassword () {
   var passwordLength = prompt("Enter your desired number of characters (min 8, max 128):")
