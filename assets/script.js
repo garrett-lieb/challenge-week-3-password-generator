@@ -74,9 +74,6 @@ if (uppercaseConfirm === false && lowercaseConfirm === false && numbersConfirm =
   return;
 }
 
-var password = "";
-
-
 // make sure potential string pass length is an integer 
 
 const confirmLength = parseInt(passwordLength)
