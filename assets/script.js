@@ -26,7 +26,7 @@ alert("Reload Page Between Passwords")
 //prompt length
 function generatePassword () {
   var passwordLength = prompt("Enter your desired number of characters (min 8, max 128):")
-
+//check to make sure its 8-128 char and that user entered a number
   if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
     alert("Invalid Entry - enter a number between 8 and 128");
     return    
