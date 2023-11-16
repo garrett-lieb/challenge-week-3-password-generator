@@ -4,6 +4,18 @@
 
 This page was created from existing html, css, and javascript code for a challenge exercise by students at the edX coding bootcamp through the U of Oregon. As part of their introduction to Javascript, students mainly focused on adding functionality to a password generator page for a fictitious client. They were provided with the HTML and CSS sheets as well as the two (2)  sections of Javascript shown in the source code. From there stuents added user prompts to ask the user to select a character length of 8-128, and then to narrow the types characters used if the user chose to do so while making sure the password includes at least one character type and the acceptable number of characters set forth in the assignment.
 
+<img src="./assets/images/page-screentshot-1.png" width="100%" height="100%">
+
+<img src="./assets/images/page-screentshot-2.png" width="100%" height="100%">
+
+<img src="./assets/images/page-screentshot-3.png" width="100%" height="100%">
+
+[ DEPLOYED PAGE: 
+   https://garrett-lieb.github.io/challenge-week-3-password-generator/]
+
+[ Garrett Lieb GITHUB REPO: 
+    https://github.com/garrett-lieb/challenge-week-3-password-generator]
+
  ## Installtion
 
 N/A
