@@ -16,6 +16,10 @@ This page was created from existing html, css, and javascript code for a challen
 [ Garrett Lieb GITHUB REPO: 
     https://github.com/garrett-lieb/challenge-week-3-password-generator]
 
+[ SOURCE CODE - CLASS REPO:
+    https://git.bootcampcontent.com/University-of-Oregon/UofO-VIRT-FSF-PT-10-2023-U-LOLC/-/blob/main/03-JavaScript/02-Challenge/Develop/script.js]
+
+
  ## Installtion
 
 N/A
